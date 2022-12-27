@@ -42,26 +42,26 @@
 33.         operacion ← (valorLado) ^ 2
 34.	    mensaje ← mensaje + "El área del cuadrado es igual a " + operacion 
 
-34.         retornar operacion
-35. fin funcion obtenerAreaCuadrado
+35.         retornar operacion
+36. fin funcion obtenerAreaCuadrado
 
-36. funcion obtenerAreaTriangulo (valorBase, i; valorAltura, i) : i
-37.         operacion, i[0 - n]
-38.         denominador, i[0 - n] ← 2
+37. funcion obtenerAreaTriangulo (valorBase, i; valorAltura, i) : i
+38.         operacion, i[0 - n]
+39.         denominador, i[0 - n] ← 2
 
-39.         operacion ← (valorBase * valorAltura) / denominador
-40.	    mensaje ← mensaje + "El área del triángulo es igual a " + operacion 
+40.         operacion ← (valorBase * valorAltura) / denominador
+41.	    mensaje ← mensaje + "El área del triángulo es igual a " + operacion 
 
-41.         retornar operacion
-42. fin funcion obtenerAreaTriangulo
+42.         retornar operacion
+43. fin funcion obtenerAreaTriangulo
 
-43. funcion obtenerAreaRectangulo (valorBase, i; valorAltura, i) : i
-44.         operacion, i[0 - n]
+44. funcion obtenerAreaRectangulo (valorBase, i; valorAltura, i) : i
+45.         operacion, i[0 - n]
 
-45.         operacion ← valorBase * valorAltura
-46.	    mensaje ← mensaje + "El área del rectángulo es igual a " + operacion 
+46.         operacion ← valorBase * valorAltura
+47.	    mensaje ← mensaje + "El área del rectángulo es igual a " + operacion 
 
-47.         retornar mensaje 
-48. fin funcion obtenerAreaRectangulo
+48.         retornar mensaje 
+49. fin funcion obtenerAreaRectangulo
 
-49. Fin
+50. Fin

@@ -1,4 +1,4 @@
- 1. Inicio
+ 1. Inicio 
  
  2. funcion principal ()
  3.         nota1, d[0, n]
