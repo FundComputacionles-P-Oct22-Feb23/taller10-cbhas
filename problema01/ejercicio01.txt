@@ -1,0 +1,67 @@
+ 1. Inicio
+ 
+ 2. funcion principal ()
+ 3.         opcion, i[0 - n]
+ 4.         resultado, i[0 - n]
+ 5.         valorLado, i[0 - n]
+ 6.         valorBase, i[0 - n]
+ 7.         valorAltura, i[0 - n]
+ 
+ 8.         << "Ingrese el número 1 si desea calcular el área del cuadrado, el número 2 si desea calcular el area del triángulo o el número 3 si desea calcular el area del rectángulo"
+ 9.         >> opcion
+
+10.         Si (opcion == 1) entonces
+11.             << "Ingrese el valor de uno de sus lados del cuadrado:"
+12.             >> valorLado
+13.             resultado ←  obtenerAreaCuadrado (valorLado)
+14.         Fin Si
+
+15.         Si (opcion == 2) entonces
+16.             << "Ingrese el valor de la base del triángulo:"
+17.             >> valorBase
+18.             << "Ingrese el valor de la altura del triángulo:"
+19.             >> valorAltura
+20.             resultado ←  obtenerAreaTriangulo (valorBase; valorAltura)
+21.         Fin Si
+
+22.         Si (opcion == 3) entonces
+23.             << "Ingrese el valor de la base del rectángulo:"
+24.             >> valorBase
+25.             << "Ingrese el valor de la altura del rectángulo:"
+26.             >> valorAltura
+27.             resultado ←  obtenerAreaRectangulo (valorBase; valorAltura)
+28.         Fin Si
+
+29.         << resultado 
+30. fin funcion principal
+
+31. funcion obtenerAreaCuadrado (valorLado, i) : i
+32.         operacion, i[0 - n]
+	    mensaje, x(1000) [{A-Z}, {a-z}, {BS}] ← ""
+
+33.         operacion ← (valorLado) ^ 2
+34.	    mensaje ← mensaje + "El área del cuadrado es igual a " + operacion 
+
+34.         retornar operacion
+35. fin funcion obtenerAreaCuadrado
+
+36. funcion obtenerAreaTriangulo (valorBase, i; valorAltura, i) : i
+37.         operacion, i[0 - n]
+38.         denominador, i[0 - n] ← 2
+
+39.         operacion ← (valorBase * valorAltura) / denominador
+40.	    mensaje ← mensaje + "El área del triángulo es igual a " + operacion 
+
+41.         retornar operacion
+42. fin funcion obtenerAreaTriangulo
+
+43. funcion obtenerAreaRectangulo (valorBase, i; valorAltura, i) : i
+44.         operacion, i[0 - n]
+
+45.         operacion ← valorBase * valorAltura
+46.	    mensaje ← mensaje + "El área del rectángulo es igual a " + operacion 
+
+47.         retornar mensaje 
+48. fin funcion obtenerAreaRectangulo
+
+49. Fin

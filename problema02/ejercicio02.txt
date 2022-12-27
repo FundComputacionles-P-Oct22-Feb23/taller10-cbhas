@@ -1,0 +1,53 @@
+ 1. Inicio
+ 
+ 2. funcion principal ()
+ 3.         nota1, d[0, n]
+ 4.         nota2, d[0, n]
+ 5.         nota3, d[0, n]
+ 6.         nota4, d[0, n]
+ 7.         resultado, x(1000)[{A-Z}, {a-z}, {BS}] 
+
+ 8.         << "Ingrese la primera nota:"
+ 9.         >> nota1
+
+10.         << "Ingrese la segunda nota:"
+11.         >> nota2
+
+12.         << "Ingrese la tercera nota:"
+13.         >> nota3
+
+14.         << "Ingrese la cuarta nota:"
+15.         >> nota4
+
+16.         resultado ← promedioCualitativo (nota1, nota2, nota3, nota4)
+
+17.         << resultado
+18. fin funcion principal
+
+19. funcion promedioCualitativo (nota1, d; nota2, d; nota3, d; nota4, d) : x
+20.         promedio, d[0 - n]
+21.         denomiador, i[0 - n] ← 4
+            mensaje, x(1000)[{A-Z}, {a-z}, {BS}] ← ""
+
+22.         promedio ← (nota1 + nota2 + nota3 +nota4) / denomiador
+
+23.         Si (promedio >= 0 AND promedio promedio <= 5) entonces
+24.             mensaje ← mensaje + "El promedio de las notas: " + nota1 + ", " + nota 2 + ", " + nota3 + ", " + nota4 + " es " + "Regular" 
+25.         Fin Si
+
+26.         Si (promedio >= 5.1 AND promedio promedio <= 8) entonces
+27.             mensaje ← mensaje + "El promedio de las notas: " + nota1 + ", " + nota 2 + ", " + nota3 + ", " + nota4 + " es " + "Bueno" 
+28.         Fin Si
+
+29.         Si (promedio >= 8.1 AND promedio promedio <= 9) entonces
+30.             mensaje ← mensaje + "El promedio de las notas: " + nota1 + ", " + nota 2 + ", " + nota3 + ", " + nota4 + " es " + "Muy Bueno" 
+31.         Fin Si  
+
+32.         Si (promedio >= 9.1 AND promedio promedio <= 10) entonces
+33.             mensaje ← mensaje + "El promedio de las notas: " + nota1 + ", " + nota 2 + ", " + nota3 + ", " + nota4 + " es " + "Sobresaliente" 
+34.         Fin Si
+
+35.         retornar mensaje
+36. fin funcion promedioCualitativo
+
+37. Fin
